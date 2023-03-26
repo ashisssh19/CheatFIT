@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.901);
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    background: black;
+  }
+
+  .header h2 {
+    font-size: 55px;
+    color: #f00;
+    
+    font-weight: 800;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .row .leftcolumn .card .fakeimg {
+    height: 100%;
+    width: 100%;
+      
+  }
+
+  .row p{
+    color: white;
+  }
+
+  .row h5{
+    color: white;
+  }
+
+  .row h2{
+    color: #f00;
+    color: gold;
+  }
+
+  .row h3{
+    color: #f00;
+    color: gold;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+ 

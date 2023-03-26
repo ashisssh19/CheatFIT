@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #000;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #f00;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.901);
+}
+
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  padding-right: 3rem;
+  background: linear-gradient(130deg, #f00 93%, transparent 90%);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 9%;
+  z-index: 10000;
+  background: #000;
+}
+
+.header .logo {
+  font-weight: bolder;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.header .logo span {
+  color: #f00;
+}
+
+.header .navbar a {
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.header .navbar a:hover {
+  background: #f00;
+}
+
+#menu-btn {
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    padding-top: 30px;
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    padding-top: 30px;
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .row .leftcolumn .card .fakeimg {
+    height: 100%;
+    width: 100%;
+      
+  }
+
+  .row p{
+    color: white;
+  }
+
+  .row h5{
+    color: white;
+  }
+
+  .row h2{
+    color: gold;
+  }
+
+  .row h3{
+   color: gold;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* popular posts link*/
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
